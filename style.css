@@ -1,0 +1,52 @@
+body{ 
+    margin: 0;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/images/mountain-night.png");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+.form{
+    background-color: rgba(70, 151, 226, 0.781);
+    min-height: 200px;
+    max-width: 500px;
+    
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-shadow: -5px 5px lightsteelblue ;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
+}
+h1{
+     
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     padding: 10px;
+     text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+     box-shadow: 0px 2px white ;
+}
+.input {
+        padding: 20px 0px;
+}
+
+.button{
+    text-align: center;
+    
+}
+.btn{
+    font-weight: bold;
+    padding: 5px 50px;
+    font-size: 20px;
+   
+
+
+}
+.button :hover{
+    background-color: green;
+
+}
